@@ -1,0 +1,11 @@
+--- origsrc/libview-0.6.4/libview/Makefile.am	2008-11-25 18:31:17.000000000 -0600
++++ src/libview-0.6.4/libview/Makefile.am	2009-02-19 01:53:03.996625000 -0600
+@@ -54,7 +54,7 @@ libview_la_SOURCES = \
+ 
+ libview_la_LIBADD = $(VIEW_LIBS)
+ libview_la_LDFLAGS = \
+-	-version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE)
++	-version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE) -no-undefined
+ 
+ 
+ INCLUDES = \

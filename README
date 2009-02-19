@@ -1,0 +1,101 @@
+libview
+------------------------------------------
+libview is VMware's Incredibly Exciting Widgets, a useful collection of 
+GTK+ widgets used within VMware products, free for everybody's use.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libatkmm1.6_1-2.14.3-1
+  libglib2.0_0-2.18.4-1
+  libglibmm2.4_1-2.18.1-1
+  libgtk2.0_0-2.14.7-2
+  libgtkmm2.4_1-2.14.3-1
+  libpangomm1.4_1-2.14.1-1
+  libsigc2.0_0-2.2.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://view.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/view/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libview-0.6.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libview-0.6.4-X.cygport all
+
+This will create:
+  /usr/src/libview-0.6.4-X-src.tar.bz2
+  /usr/src/libview-devel-0.6.4-X.tar.bz2
+  /usr/src/libview2-0.6.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libview2)
+  /usr/bin/cygview-2.dll
+  /usr/share/doc/libview-0.6.4/AUTHORS
+  /usr/share/doc/libview-0.6.4/COPYING
+  /usr/share/doc/libview-0.6.4/ChangeLog
+  /usr/share/doc/libview-0.6.4/NEWS
+  /usr/share/doc/libview-0.6.4/README
+
+(libview-devel)
+  /usr/include/libview/actionGroup.hh
+  /usr/include/libview/autoDrawer.h
+  /usr/include/libview/baseBGBox.hh
+  /usr/include/libview/contentBox.hh
+  /usr/include/libview/deadEntry.hh
+  /usr/include/libview/defines.h
+  /usr/include/libview/drawer.h
+  /usr/include/libview/fieldEntry.hh
+  /usr/include/libview/header.hh
+  /usr/include/libview/ipEntry.hh
+  /usr/include/libview/menuToggleAction.hh
+  /usr/include/libview/motionTracker.hh
+  /usr/include/libview/ovBox.h
+  /usr/include/libview/reparenter.hh
+  /usr/include/libview/spinner.hh
+  /usr/include/libview/spinnerAction.hh
+  /usr/include/libview/toolTip.hh
+  /usr/include/libview/uiGroup.hh
+  /usr/include/libview/undoableTextView.hh
+  /usr/include/libview/utils.hh
+  /usr/include/libview/view.hh
+  /usr/include/libview/viewport.hh
+  /usr/include/libview/weakPtr.hh
+  /usr/include/libview/widthHeight.hh
+  /usr/include/libview/wrapLabel.hh
+  /usr/lib/libview.dll.a
+  /usr/lib/libview.la
+  /usr/lib/pkgconfig/libview.pc
+
+------------------
+
+Port Notes:
+
+----- version 0.6.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
