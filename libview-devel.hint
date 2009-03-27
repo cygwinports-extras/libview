@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libview2 libatkmm1.6-devel libglib2.0-devel libglibmm2.4-devel libgtk2.0-devel libgtkmm2.4-devel libpangomm1.4-devel libsigc2.0-devel
+requires: cygwin libview2 libatkmm1.6-devel libglib2.0-devel libglibmm2.4-devel libgtk2.0-devel libgtkmm2.4-devel libpangomm1.4-devel libsigc2.0-devel libstdc++6-devel
 external-source: libview
 sdesc: "VMware's Incredibly Exciting Widgets for GTK+ (development)"
 ldesc: "libview is VMware's Incredibly Exciting Widgets, a useful 
